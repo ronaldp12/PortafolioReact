@@ -1,8 +1,12 @@
+import { NavLink } from "react-router-dom"
 
-export const BtnSection = ({contenido, estilos}) => {
+export const BtnSection = ({contenido, estilos, to}) => {
   return (
     <>
-        <button className={estilos}>{contenido}</button>
+        <NavLink to={to}>
+          <button className={estilos}>{contenido}</button>
+        </NavLink>
+        
     </>
   )
 }

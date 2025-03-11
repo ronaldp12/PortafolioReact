@@ -19,9 +19,10 @@ body {
 
 header{
   width: 100vw;
-  height: 36%;
+  height: 15rem;
   background-color: aqua;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 h1{
@@ -43,7 +44,6 @@ h1{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem;
 }
 
 .btn-section{
@@ -51,4 +51,15 @@ h1{
   width: 12rem;
   height: 2rem;
   border-radius: 10px;
+}
+
+.container-paragraph{
+  width: 100%;
+  height: 20%;
+}
+
+.footer{
+  width: 100%;
+  height: 8rem;
+  background-color: aqua;
 }
