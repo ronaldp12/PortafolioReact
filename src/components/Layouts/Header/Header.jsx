@@ -1,4 +1,4 @@
-import { ImgPersonal } from "../../Ui/ImgPersonal/ImgPersonal.jpg"
+import { ImgPersonal } from "../../Ui/ImgPersonal/ImgPersonal"
 
 export const Header = () => {
     return (
