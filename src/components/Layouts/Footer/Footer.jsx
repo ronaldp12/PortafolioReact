@@ -1,4 +1,4 @@
-import { ItemLista } from "../../Ui/ItemLista/ItemLista"
+import { ItemLista } from "../../Ui/ItemLista/ItemLista.jsx"
 
 
 export const Footer = () => {

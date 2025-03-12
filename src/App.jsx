@@ -1,7 +1,7 @@
-import { Home } from "./components/Pages/Home/Home"
+import { Home } from "./components/Pages/Home/Home.jsx"
 import { Routes,Route } from "react-router-dom"
-import { Container } from "./components/Container/Container"
-import { TechnicalSkills } from "./components/Pages/TechnicalSkills/TechnicalSkills"
+import { Container } from "./components/Container/Container.jsx"
+import { TechnicalSkills } from "./components/Pages/TechnicalSkills/TechnicalSkills.jsx"
 
 export function App() {
 

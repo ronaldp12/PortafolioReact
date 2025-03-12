@@ -1,6 +1,6 @@
-import { Footer } from "../../Layouts/Footer/Footer"
-import { Header } from "../../Layouts/Header/Header"
-import { SectionMain } from "../../Layouts/sectionMain/SectionMain"
+import { Footer } from "../../Layouts/Footer/Footer.jsx"
+import { Header } from "../../Layouts/Header/Header.jsx"
+import { SectionMain } from "../../Layouts/SectionMain/SectionMain.jsx"
 
 export const Home = () => {
   return (

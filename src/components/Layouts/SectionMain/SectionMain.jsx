@@ -1,5 +1,5 @@
-import { BtnSection } from "../../Ui/BtnSection/BtnSection"
-import { ParagraphMain } from "../../Ui/ParagraphMain/ParagraphMain"
+import { BtnSection } from "../../Ui/BtnSection/BtnSection.jsx"
+import { ParagraphMain } from "../../Ui/ParagraphMain/ParagraphMain.jsx"
 
 
 export const SectionMain = () => {
