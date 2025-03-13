@@ -90,9 +90,9 @@ h1{
 
 .btn-section {
   width: 20rem;
-  --color: #4a5c6a;
+  --color: #06141b;
   padding: 0.8em 1.7em;
-  background-color: transparent;
+  background-color: #9ba8ab;
   border-radius: 1em;
   position: relative;
   overflow: hidden;
@@ -137,7 +137,7 @@ h1{
  }
  
  .btn-section:hover {
-  color: #4a5c6a;
+  color: #ccd0cf;
  }
  
  .btn-section:active {
@@ -153,7 +153,7 @@ h1{
 .container-paragraph>p{
   text-align: justify;
   font-family: "Poppins", sans-serif;
-  color: #9ba8ab;
+  color: #dee2ee;
 }
 
 .footer{
