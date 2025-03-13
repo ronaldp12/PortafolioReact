@@ -1,14 +1,18 @@
+import { useNavigate } from "react-router-dom";
 import { NavLink } from "react-router-dom"
 
 export const BtnSection = ({contenido, estilos, to}) => {
 
+  const navigate= useNavigate();
+
   const handleClick = (e) => {
+    
     e.preventDefault();
 
     setTimeout(() => {
 
-      window.location.href = to;
-    }, 1000);
+      navigate(to);
+    }, 600);
   };
 
   return (
