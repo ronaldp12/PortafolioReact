@@ -1,12 +1,14 @@
 import { Footer } from "../../Layouts/Footer/Footer.jsx"
 import { Header } from "../../Layouts/Header/Header.jsx"
-import { SectionMain } from "../../Layouts/SectionMain/SectionMain.jsx"
+import { SectionAboutMe } from "../../Layouts/SectionAboutMe/SectionAboutMe.jsx"
+import { SectionBtns } from "../../Layouts/SectionBtns/SectionBtns.jsx"
 
 export const Home = () => {
   return (
     <>
         <Header/>
-        <SectionMain/>
+        <SectionAboutMe/>
+        <SectionBtns/>
         <Footer/>
     </>
   )

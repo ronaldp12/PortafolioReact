@@ -1,19 +1,15 @@
 import { BtnSection } from "../../Ui/BtnSection/BtnSection.jsx"
-import { ParagraphMain } from "../../Ui/ParagraphMain/ParagraphMain.jsx"
 
-
-export const SectionMain = () => {
+export const SectionBtns = () => {
   return (
     <>
-    <ParagraphMain contenido={"Sobre mi"}/>
-    
     <div className="container-btns">
       <BtnSection  estilos="btn-section" contenido={"Habilidades Técnicas"} to="/technicalSkills" />
       <BtnSection estilos="btn-section" contenido={"Habilidades Sociales"}/>
       <BtnSection estilos="btn-section" contenido={"Experiencia Profesional"}/>
       <BtnSection estilos="btn-section" contenido={"Estudios"}/>
     </div>
+    
     </>
   )
 }
-

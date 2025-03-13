@@ -79,7 +79,7 @@ h2{
 
 h3 {
   margin: 0.6rem;
-  color: #9ba8ab;
+  color: #dee2ee;
   font-size: 1rem;
   margin-bottom: 1rem;
   font-weight: 500;
@@ -165,12 +165,28 @@ h3 {
   }
  }
 
-.img-header{
+.about-me-text{
+  font-size: 1.6rem;
+  margin: 0;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  margin-top: 1.5rem;
+  color: #9ba8ab;
+}
+
+.container.img-personal{
+  display: flex;
+  justify-content: center;
+}
+
+.img-personal{
   border-radius: 50%;
   width: 10rem; 
   height: 10rem;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin-left: 7rem;
+  margin-bottom: 2rem;
 }
 
 .container-btns{
@@ -199,7 +215,7 @@ h3 {
   text-transform: uppercase;
   color: var(--color);
   z-index: 1;
-  margin-bottom: 1rem;
+  margin-bottom: 1.3rem;
  }
  
  .btn-section::before, .btn-section::after {
@@ -252,19 +268,61 @@ h3 {
 
 .footer{
   width: 100%;
-  height: 8rem;
-  background-color: aqua;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  height: 14rem;
   list-style: none;
   margin-top: 1.5rem;
   background-color: #11212d;
 }
 
-.bi-facebook{
-  font-size: 2rem;
+.email-footer{
+  padding-top: 1.2rem;
+}
+
+.bi-envelope-fill{
+  margin-left: 1rem;
+}
+
+.email-footer>p{
+  text-align: center;
   color: #9ba8ab;
+  margin-top: 0.8rem;
+  font-weight: 500;
+}
+
+.btn-contact{
+  width: 8rem;
+  height: 2rem;
+  background-color: #4a5c6a;
+  border-radius: 1em;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  margin-left: 8rem;
+  color: #dee2ee;
+  cursor: pointer;
+  transition: .5s;
+  text-transform: uppercase;
+}
+
+.btn-contact:hover{
+  background-color: #6da6c0;
+  color: #06141b;
+  text-transform: lowercase;
+  transform: translateY(-7px);
+}
+
+.btn-contact:active{
+  filter: brightness(.8);
+  font-size: 1rem;
+  transform: translateY(-1px);
+}
+
+.icons-footer{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
 }
 
 .bi-telephone-fill{
@@ -285,6 +343,13 @@ h3 {
 .bi-linkedin{
   font-size: 1.5rem;
   color: #9ba8ab;
+}
+
+.footer >p{
+  margin-top: 1.5rem;
+  color: #6da6c0;
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 .container-technical-skills{
