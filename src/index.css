@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-:root {
+#root {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -138,3 +138,28 @@ h1{
 .bi-linkedin{
   font-size: 1.5rem;
 }
+
+.container-technical-skills{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-technical{
+  width: 16rem;
+  height: auto;
+  list-style: none;
+  text-align: center;
+  background-color: #00A97F;
+  margin: 1rem;
+  border-radius: 10px;
+  padding: 0.7em;
+}
+
+.container-technical>h3{
+  margin-bottom: 0.5rem;
+}
+
