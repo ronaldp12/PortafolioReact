@@ -5,7 +5,7 @@ import { ParagraphMain } from "../../Ui/ParagraphMain/ParagraphMain.jsx"
 export const SectionMain = () => {
   return (
     <>
-    <ParagraphMain/>
+    <ParagraphMain contenido={"Sobre mi"}/>
     
     <div className="container-btns">
       <BtnSection  estilos="btn-section" contenido={"Habilidades Técnicas"} to="/technicalSkills" />
