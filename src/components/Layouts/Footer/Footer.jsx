@@ -17,19 +17,27 @@ export const Footer = () => {
 
               <div className="icons-footer">
                   <ItemLista>
+                    <a href="tel:+573022892903">
                       <i class="bi bi-telephone-fill"></i>
+                    </a>
                   </ItemLista>
 
                   <ItemLista>
+                    <a href="mailto:patinoguevararonald@gmail.com">
                       <i class="bi bi-envelope-at-fill"></i>
+                    </a>
                   </ItemLista>
 
                   <ItemLista>
+                    <a href="https://github.com/ronaldp12">
                       <i class="bi bi-github"></i>
+                    </a>
                   </ItemLista>
 
                   <ItemLista>
+                    <a href="www.linkedin.com/in/ronald-patiño-7b9980305">
                       <i class="bi bi-linkedin"></i>
+                    </a>
                   </ItemLista>
               </div>
 
