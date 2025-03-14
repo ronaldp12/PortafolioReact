@@ -372,7 +372,53 @@ h3 {
   padding: 0.7em;
 }
 
+.container-skills-list{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1em;
+  justify-content: space-evenly;
+}
+
 .container-technical>h3{
   margin-bottom: 0.5rem;
+}
+
+.skills-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.bi-filetype-jsx{
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+.bi-filetype-html{
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+.bi-filetype-css{
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+.bi-filetype-js{
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+.bi-0-square{
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+.react-icon{
+  width: 4rem;
+  height: 4rem;
 }
 

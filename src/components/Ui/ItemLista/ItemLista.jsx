@@ -1,12 +1,15 @@
 
 
-export const ItemLista = ({contenido, children}) => {
+export const ItemLista = ({contenido, children, estilos, estilos2="list"}) => {
   return (
     <>
-        <li>
-            <span>{children}</span>
-            <span>{contenido}</span>
+    <div className={estilos2}>
+    <li className={estilos}>
+          <span>{children}</span>
+          <span>{contenido}</span>
         </li>
+    </div>
+        
     </>
   )
 }
