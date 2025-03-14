@@ -422,3 +422,27 @@ h3 {
   height: 4rem;
 }
 
+.html-icon{
+  width: 4rem;
+  height: 4rem;
+}
+
+.css-icon{
+  width: 4rem;
+  height: 4rem;
+}
+
+.javascript-icon{
+  width: 6rem;
+  height: 4rem;
+}
+
+.tailwind-icon{
+  width: 4rem;
+  height: 4rem;
+}
+
+span{
+  margin-bottom: 0.8rem;
+}
+

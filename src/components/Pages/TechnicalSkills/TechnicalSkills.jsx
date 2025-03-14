@@ -1,6 +1,9 @@
 import { ItemLista } from "../../Ui/ItemLista/ItemLista.jsx"
 import { ReactIcon } from "../../Ui/ReactIcon/ReactIcon.jsx"
 import { HtmlIcon } from "../../Ui/HtmlIcon/HtmlIcon.jsx"
+import { CssIcon } from "../../Ui/CssIcon/CssIcon.jsx"
+import { JavaScriptIcon } from "../../Ui/JavaScriptIcon/JavaScriptIcon.jsx"
+import { TailwindIcon } from "../../Ui/TailwindIcon/TailwindIcon.jsx"
 
 export const TechnicalSkills = () => {
   return (
@@ -17,16 +20,16 @@ export const TechnicalSkills = () => {
               <ReactIcon estilos={"react-icon"}/>
             </ItemLista>
             <ItemLista estilos={"skills-list"} contenido={"HTML"}>
-              <HtmlIcon estilos={"react-icon"}/>
+              <HtmlIcon estilos={"html-icon"}/>
             </ItemLista>
             <ItemLista estilos={"skills-list"} contenido={"CSS"}>
-              <i class="bi bi-filetype-css"></i>
+              <CssIcon estilos={"css-icon"}/>
             </ItemLista>
             <ItemLista estilos={"skills-list"} contenido={"JavaScript"}>
-              <i class="bi bi-filetype-js"></i>
+              <JavaScriptIcon estilos={"javascript-icon"}/>
             </ItemLista>
             <ItemLista estilos={"skills-list"} contenido={"Tailwind CSS"}>
-              <i class="bi bi-0-square"></i>
+              <TailwindIcon estilos={"tailwind-icon"}/>
             </ItemLista>
 
           </div>
