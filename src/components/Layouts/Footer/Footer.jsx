@@ -30,7 +30,7 @@ export const Footer = () => {
 
                   <ItemLista>
                     <a href="https://github.com/ronaldp12">
-                      <i class="bi bi-github"></i>
+                      <i class='bx bxl-github' ></i>
                     </a>
                   </ItemLista>
 

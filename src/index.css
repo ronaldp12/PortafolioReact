@@ -56,7 +56,7 @@ body {
   background-color: #06141b;
 }
 
-header{
+.header-home{
   width: 100vw;
   height: 16rem;
   text-align: center;
@@ -335,8 +335,8 @@ h3 {
   color: #9ba8ab;
 }
 
-.bi-github{
-  font-size: 1.5rem;
+.bxl-github {
+  font-size: 1.8rem;
   color: #9ba8ab;
 }
 
@@ -352,97 +352,6 @@ h3 {
   text-align: center;
 }
 
-.container-technical-skills{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
-.container-technical{
-  width: 16rem;
-  height: auto;
-  list-style: none;
-  text-align: center;
-  background-color: #00A97F;
-  margin: 1rem;
-  border-radius: 10px;
-  padding: 0.7em;
-}
 
-.container-skills-list{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 1em;
-  justify-content: space-evenly;
-}
-
-.container-technical>h3{
-  margin-bottom: 0.5rem;
-}
-
-.skills-list{
-  display: flex;
-  flex-direction: column;
-}
-
-.bi-filetype-jsx{
-  font-size: 3rem;
-  margin-right: 1rem;
-}
-
-.bi-filetype-html{
-  font-size: 3rem;
-  margin-right: 1rem;
-}
-
-.bi-filetype-css{
-  font-size: 3rem;
-  margin-right: 1rem;
-}
-
-.bi-filetype-js{
-  font-size: 3rem;
-  margin-right: 1rem;
-}
-
-.bi-0-square{
-  font-size: 3rem;
-  margin-right: 1rem;
-}
-
-.react-icon{
-  width: 4rem;
-  height: 4rem;
-}
-
-.html-icon{
-  width: 4rem;
-  height: 4rem;
-}
-
-.css-icon{
-  width: 4rem;
-  height: 4rem;
-}
-
-.javascript-icon{
-  width: 6rem;
-  height: 4rem;
-}
-
-.tailwind-icon{
-  width: 4rem;
-  height: 4rem;
-}
-
-span{
-  margin-bottom: 0.8rem;
-}
 

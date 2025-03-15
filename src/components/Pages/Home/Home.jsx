@@ -6,7 +6,7 @@ import { SectionBtns } from "../../Layouts/SectionBtns/SectionBtns.jsx"
 export const Home = () => {
   return (
     <>
-        <Header/>
+        <Header estilos={"header-home"}/>
         <SectionAboutMe/>
         <SectionBtns/>
         <Footer/>

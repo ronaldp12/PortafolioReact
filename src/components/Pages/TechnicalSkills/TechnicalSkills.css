@@ -1,0 +1,118 @@
+
+.header2{
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: #11212d;
+}
+
+.img-personal2{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 0.7rem;
+    margin-left: 2rem;
+}
+
+.container-header2{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.bi-arrow-left-circle-fill{
+    color: #6da6c0;
+    font-size: 2rem;
+}
+
+.container-technical-skills{
+    width: 100%;
+    height: calc(100vh -7rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.container-technical{
+    width: 16rem;
+    height: auto;
+    list-style: none;
+    text-align: center;
+    background-color: #00A97F;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 0.7em;
+    align-items: center;
+  }
+  
+.container-skills-list{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 0;
+  }
+  
+.container-technical>h3{
+    margin-bottom: 0.5rem;
+  }
+  
+.bi-filetype-jsx{
+    font-size: 3rem;
+  }
+  
+.bi-filetype-html{
+    font-size: 3rem;
+  }
+  
+.bi-filetype-css{
+    font-size: 3rem;
+  }
+  
+.bi-filetype-js{
+    font-size: 3rem;
+  }
+  
+.bi-bootstrap{
+    font-size: 3rem;
+  }
+
+.bxl-angular{
+    font-size: 3rem;
+  }
+
+.bi-git{
+    font-size: 3rem;
+  }
+
+.bi-github{
+    font-size: 3rem;
+    color: black;
+  }
+
+.bi-gitlab{
+    font-size: 3rem;
+  }
+
+.bxl-nodejs, .bxl-python, .bxl-java, .bxl-django, .bxl-spring-boot{
+    font-size: 3rem;
+}
+
+.bi-filetype-sql, .bxl-postgresql, .bxl-mongodb{
+    font-size: 3rem;
+}
+  

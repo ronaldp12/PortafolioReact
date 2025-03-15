@@ -1,14 +1,14 @@
 import { ItemLista } from "../../Ui/ItemLista/ItemLista.jsx"
-import { ReactIcon } from "../../Ui/ReactIcon/ReactIcon.jsx"
-import { HtmlIcon } from "../../Ui/HtmlIcon/HtmlIcon.jsx"
-import { CssIcon } from "../../Ui/CssIcon/CssIcon.jsx"
-import { JavaScriptIcon } from "../../Ui/JavaScriptIcon/JavaScriptIcon.jsx"
-import { TailwindIcon } from "../../Ui/TailwindIcon/TailwindIcon.jsx"
+import {Footer } from '../../Layouts/Footer/Footer.jsx'
+import { Header2 } from "../../Layouts/Header2/Header2.jsx"
 
 export const TechnicalSkills = () => {
   return (
 
     <>
+
+      <Header2 estilos={"header2"} estilos2={"container-header2"} />
+
       <div className="container-technical-skills">
 
         <div className="container-technical">
@@ -16,20 +16,23 @@ export const TechnicalSkills = () => {
           <h3>Frontend</h3>
 
           <div className="container-skills-list">
-            <ItemLista estilos={"skills-list"} contenido={"React"}>
-              <ReactIcon estilos={"react-icon"}/>
+            <ItemLista>
+            <i class="bi bi-filetype-jsx"></i>
             </ItemLista>
-            <ItemLista estilos={"skills-list"} contenido={"HTML"}>
-              <HtmlIcon estilos={"html-icon"}/>
+            <ItemLista >
+            <i class="bi bi-filetype-html"></i>
             </ItemLista>
-            <ItemLista estilos={"skills-list"} contenido={"CSS"}>
-              <CssIcon estilos={"css-icon"}/>
+            <ItemLista >
+            <i class="bi bi-filetype-css"></i>
             </ItemLista>
-            <ItemLista estilos={"skills-list"} contenido={"JavaScript"}>
-              <JavaScriptIcon estilos={"javascript-icon"}/>
+            <ItemLista >
+            <i class="bi bi-filetype-js"></i>
             </ItemLista>
-            <ItemLista estilos={"skills-list"} contenido={"Tailwind CSS"}>
-              <TailwindIcon estilos={"tailwind-icon"}/>
+            <ItemLista >
+            <i class="bi bi-bootstrap"></i>
+            </ItemLista>
+            <ItemLista>
+            <i class='bx bxl-angular'></i>
             </ItemLista>
 
           </div>
@@ -37,23 +40,59 @@ export const TechnicalSkills = () => {
 
         <div className="container-technical">
           <h3>Control de versiones</h3>
-          <ItemLista contenido={"Git"} />
-          <ItemLista contenido={"Github"} />
+          <div className="container-skills-list">
+          <ItemLista>
+          <i class="bi bi-git"></i>
+          </ItemLista>
+          <ItemLista>
+          <i class="bi bi-github"></i>
+          </ItemLista>
+          <ItemLista>
+          <i class="bi bi-gitlab"></i>
+          </ItemLista>
+          </div>
+          
         </div>
 
         <div className="container-technical">
-          <h3>Educacion y Liderazgo </h3>
-          <ItemLista contenido={"Logica de programacion "} />
-          <ItemLista contenido={"Preparacion"} />
-          <ItemLista contenido={"Conduccion de conferencias"} />
+          <h3>Backend </h3>
+          <div className="container-skills-list">
+            <ItemLista>
+            <i class='bx bxl-nodejs'></i>
+            </ItemLista>
+            <ItemLista>
+            <i class='bx bxl-python' ></i>
+            </ItemLista>
+            <ItemLista>
+            <i class='bx bxl-java'></i>
+            </ItemLista>
+            <ItemLista>
+            <i class='bx bxl-django'></i>
+            </ItemLista>
+            <ItemLista>
+            <i class='bx bxl-spring-boot' ></i>
+            </ItemLista>
+          </div>
         </div>
 
         <div className="container-technical">
-          <h3>Desarrollo web </h3>
-          <ItemLista contenido={"Aplicaciones del lado del cliente"} />
+          <h3>Base de datos </h3>
+          <div className="container-skills-list">
+            <ItemLista>
+            <i class="bi bi-filetype-sql"></i>
+            </ItemLista>
+            <ItemLista>
+            <i class='bx bxl-postgresql'></i>
+            </ItemLista>
+            <ItemLista>
+            <i class='bx bxl-mongodb' ></i>
+            </ItemLista>
+          </div>
         </div>
         
       </div>
+
+      <Footer/>
     </>
     
     

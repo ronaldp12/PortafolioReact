@@ -2,9 +2,9 @@ import { BtnSection } from "../../Ui/BtnSection/BtnSection.jsx"
 import { ImgPersonal } from "../../Ui/ImgPersonal/ImgPersonal"
 import { BtnDownload } from "../../Ui/BtnDownload/BtnDownload.jsx"
 
-export const Header = () => {
+export const Header = ({estilos}) => {
     return (
-        <header>
+        <header className={estilos}>
 
             <h2>Hola! soy,</h2>
             <h1>Ronald Patiño Guevara</h1>
