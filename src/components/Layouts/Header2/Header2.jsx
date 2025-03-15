@@ -18,9 +18,6 @@ export const Header2 = ({estilos, estilos2}) => {
         <ImgPersonal estilos={"img-personal2"}/>
         <h2>Portfolio</h2>
         </div>
-
-        
-
         
       </header>
 

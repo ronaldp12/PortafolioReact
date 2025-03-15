@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.open-sans- {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  .open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 
 .header2{
     width: 100vw;
@@ -8,6 +42,7 @@
     align-items: center;
     padding: 0;
     background-color: #11212d;
+    font-family: "Poppins", sans-serif;
 }
 
 .img-personal2{
@@ -27,7 +62,7 @@
 }
 
 .bi-arrow-left-circle-fill{
-    color: #6da6c0;
+    color: #7fa3b8;
     font-size: 2rem;
 }
 
@@ -45,12 +80,19 @@
     height: auto;
     list-style: none;
     text-align: center;
-    background-color: #00A97F;
+    background-color: #4e758d;
     margin: 1rem;
     border-radius: 10px;
     padding: 0.7em;
     align-items: center;
   }
+
+.container-technical >h3{
+    font-size: 1.3rem;
+    color: #11212d;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
   
 .container-skills-list{
     width: 100%;
