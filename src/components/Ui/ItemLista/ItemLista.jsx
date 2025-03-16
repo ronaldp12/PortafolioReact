@@ -5,8 +5,9 @@ export const ItemLista = ({contenido, children, estilos, estilos2="list"}) => {
     <>
     <div className={estilos2}>
     <li className={estilos}>
-          <span>{children}</span>
+          
           <span>{contenido}</span>
+          <span>{children}</span>
         </li>
     </div>
         
