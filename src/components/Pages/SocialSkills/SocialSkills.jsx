@@ -51,12 +51,6 @@ export const SocialSkills = () => {
 
               </div>
 
-              <div className='container-level-english'>
-                  <ItemLista contenido={"Nivel de inglés "}>
-                      <span className='level'>B1+ </span>
-                      <i class="bi bi-translate"></i>
-                  </ItemLista>
-              </div>
           </div>
 
           <Footer/>

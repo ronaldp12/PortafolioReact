@@ -204,24 +204,4 @@
     transform: translateY(-7px);
 }
 
-.container-level-english{
-    background-color: #ccd0cf;
-    margin-top: 2rem;
-    width: 60%;
-    height: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    text-transform: uppercase;
-    border-radius: 0.2em;
-    font-size: 1.1rem;
-}
 
-.level{
-    color: #4a7f92;
-}
-
-.bi-translate{
-    font-size: 1.1rem;
-}

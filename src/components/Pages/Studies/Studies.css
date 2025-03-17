@@ -1,0 +1,82 @@
+.container-studies{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #06141b;
+}
+
+.container-studies>h2{
+    font-size: 2rem;
+    color: #ccd0cf;
+    text-transform: uppercase;
+}
+
+.container-study{
+    width: 80%;
+    height: 7rem;
+    background-color: #A7D8D3;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 1em;
+}
+
+.study-name{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bi-code-slash{
+    font-size: 1.1rem;
+}
+
+.state{
+    text-align: start;
+    color: #2C3E50;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.state2{
+    text-align: start;
+    color: #1c61af;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.years{
+    text-align: end;
+    font-style: italic;
+}
+
+.container-level-english{
+    background-color: #ccd0cf;
+    margin-top: 2rem;
+    width: 60%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-transform: uppercase;
+    border-radius: 0.2em;
+    font-size: 1.1rem;
+}
+
+.level{
+    color: #4a7f92;
+}
+
+.bi-translate{
+    font-size: 1.1rem;
+}
