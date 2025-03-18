@@ -1,0 +1,34 @@
+.container-projects{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container-project{
+    width: 15rem;
+    height: auto;
+    background-color: azure;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    border-radius: 0.6em;
+}
+
+
+.container-img{
+    width: 100%;
+    height: 50%;
+}
+
+.img-project{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 0.6em;
+    border-top-right-radius: 0.6em;
+}
