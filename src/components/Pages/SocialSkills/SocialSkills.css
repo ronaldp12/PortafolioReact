@@ -218,3 +218,24 @@
     }
     
   }
+
+  @media (min-width:483px) and (max-width: 821px) {
+
+    .container-social-skills{
+        height: 65vh;
+    }
+
+    .container-social-skills>h2{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    
+    .container-social-list{
+        gap: 1.5rem;
+    }
+
+    .item-social, .item-social2, .item-social3, .item-social4, .item-social5, .item-social6, .item-social7, .item-social8, .item-social9{
+        width: 50%;
+        font-size: 1.4rem;
+    }
+  }

@@ -126,40 +126,11 @@
     margin-bottom: 0.5rem;
   }
   
-.bi-filetype-jsx{
-    font-size: 3rem;
-  }
-  
-.bi-filetype-html{
-    font-size: 3rem;
-  }
-  
-.bi-filetype-css{
-    font-size: 3rem;
-  }
-  
-.bi-filetype-js{
-    font-size: 3rem;
-  }
-  
-.bi-bootstrap{
+.bi-filetype-jsx, .bi-filetype-html, .bi-filetype-css, .bi-filetype-js, .bi-bootstrap, .bxl-angular{
     font-size: 3rem;
   }
 
-.bxl-angular{
-    font-size: 3rem;
-  }
-
-.bi-git{
-    font-size: 3rem;
-  }
-
-.bi-github{
-    font-size: 3rem;
-    color: black;
-  }
-
-.bi-gitlab{
+.bi-git, .bi-github, .bi-gitlab{
     font-size: 3rem;
   }
 
@@ -190,6 +161,11 @@
     width: 3.5rem;
     height: 3.5rem;
   }
+
+  .bi-arrow-left-circle-fill{
+    font-size: 2.5rem;
+  }
+
   .container-header2{
     display: flex;
     flex-direction: row;
@@ -201,5 +177,58 @@
     font-size: 1.7rem;
   }
   
+}
+
+@media (min-width:483px) and (max-width: 821px) {
+
+  .header2{
+    height: 9rem;
+  }
+
+  .img-personal2{
+    margin-left: 10rem;
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .container-header2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-header2>h2{
+    font-size: 2rem;
+  }
+
+  .bi-arrow-left-circle-fill{
+    font-size: 3.2rem;
+  }
+
+  .container-technical-skills >h2{
+    font-size: 2.1rem;
+  }
+
+  .container-technical >h3{
+    font-size: 1.7rem;
+  }
+
+  .bi-filetype-jsx, .bi-filetype-html, .bi-filetype-css, .bi-filetype-js, .bi-bootstrap, .bxl-angular{
+    font-size: 3.5rem;
+  }
+
+  .bi-git, .bi-github, .bi-gitlab{
+    font-size: 3.5rem;
+  }
+
+  .bxl-nodejs, .bxl-python, .bxl-java, .bxl-django, .bxl-spring-boot{
+    font-size: 3.5rem;
+  }
+
+  .bi-filetype-sql, .bxl-postgresql, .bxl-mongodb{
+    font-size: 3.5rem;
+  }
+
 }
   

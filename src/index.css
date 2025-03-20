@@ -390,6 +390,14 @@ h3 {
 
 @media (min-width:432px) and (max-width: 482px) {
 
+  .header-home{
+    height: 17rem;
+  }
+
+  .header-home::before{
+    height: 17rem;
+  }
+
   .header-home >h1{
     font-size: 2.2rem;
   }
@@ -410,11 +418,12 @@ h3 {
   .btn-contact{
     width: 10rem;
     margin-left: 10.5rem;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
   }
 
   .btn-section{
-    font-size: 19px;
+    font-size: 21px;
+    width: 22rem;
   }
 
   .email-footer>p{
@@ -429,6 +438,92 @@ h3 {
     font-size: 1.2rem;
   }
   
+}
+
+@media (min-width:483px) and (max-width: 821px) {
+
+  .header-home{
+    height: 19rem;
+  }
+
+  .header-home::before{
+    height: 19rem;
+  }
+
+  .header-home >h1{
+    font-size: 2.8rem;
+  }
+
+  h2{
+    font-size: 1.7rem;
+  }
+
+  h3{
+    font-size: 1.4rem;
+  }
+
+  .buttonDownload{
+    width: 17rem;
+    font-size: 1.4rem;
+  }
+
+  .img-personal{
+    margin-left: 21rem;
+  }
+
+  .container-btns{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .btn-contact{
+    width: 10rem;
+    margin-left: 21rem;
+    font-size: 1.15rem;
+    margin-top: 1.6rem;
+  }
+
+  .btn-section{
+    font-size: 20px;
+    width: 21rem;
+  }
+
+  .email-footer>p{
+    font-size: 1.2rem;
+  }
+
+  .about-me-text{
+    font-size: 2.3rem;
+  }
+
+  .container-paragraph >p{
+    font-size: 1.4rem;
+  }
+
+  .footer{
+    height: 16rem;
+  }
+
+  .bi-telephone-fill{
+    font-size: 2.0rem;
+  }
+  
+  .bi-envelope-at-fill{
+    font-size: 2.0rem;
+  }
+  
+  .bxl-github {
+    font-size: 2.3rem;
+  }
+  
+  .bi-linkedin{
+    font-size: 2.0rem;
+  }
+
+  .footer >p{
+    font-size: 1rem;
+  }
 }
 
 

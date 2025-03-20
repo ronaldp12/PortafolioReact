@@ -1,20 +1,23 @@
-.container-projects{
+.container-projects {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column; 
+    justify-content: flex-start;
     align-items: center;
     gap: 1rem;
 }
 
-.container-projects>h2{
+.container-projects > h2 {
     text-transform: uppercase;
     margin-top: 1rem;
     font-size: 1.7rem;
+    width: 100%; 
+    text-align: center;
+    flex-shrink: 0; 
 }
 
-.container-project{
+.container-project {
     width: 18rem;
     height: auto;
     background-color: azure;
@@ -24,22 +27,26 @@
     list-style: none;
     border-radius: 0.6em;
     margin-bottom: 1rem;
+    cursor: pointer;
 }
 
-.container-project>p{
+.container-project > p {
     padding: 0.4rem;
 }
 
-.container-project>a{
+.container-projects > a {
     text-decoration: none;
+    display: block;
+    height: 100%;
+    color: black;
 }
 
-.container-img{
+.container-img {
     width: 100%;
     height: 50%;
 }
 
-.img-project{
+.img-project {
     width: 100%;
     height: 100%;
     border-top-left-radius: 0.6em;
@@ -47,13 +54,13 @@
     cursor: pointer;
 }
 
-.info{
+.info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.project-name{
+.project-name {
     margin-right: 4.5rem;
     text-transform: uppercase;
     padding: 0.4rem;
@@ -62,11 +69,40 @@
     font-family: "Poppins", sans-serif;
 }
 
-.icon-github{
+.icon-github {
     color: black;
     margin-right: 0.4rem;
 }
 
-.description{
+.description {
     font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 483px) and (max-width: 821px) {
+    
+    .container-projects {
+        display: flex;
+        flex-wrap: wrap;  
+        flex-direction: row; 
+        justify-content: center; 
+        align-items: flex-start; 
+    }
+
+    
+    .container-projects > h2 {
+        font-size: 2rem;
+        flex-shrink: 0;  
+        text-align: center; 
+    }
+
+    
+    .container-project {
+        margin: 1rem; 
+        height: 21rem;
+        flex-direction: column;
+    }
+
+    .container-project > a{
+        height: 100%;
+    }
 }

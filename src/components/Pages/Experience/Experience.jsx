@@ -16,54 +16,62 @@ export const Experience = () => {
 
         <h2>Proyectos</h2>
 
+        <a href="https://github.com/ronaldp12/atlas_project">
         <div className='container-project'>
-          <a href="https://github.com/ronaldp12/atlas_project">
+          
             <ImgProject estilosDiv={"container-img"} estilos={"img-project"} ruta={imgProyecto1} />
             <ItemLista estilos={"info"} estilos2={"project-name"} contenido={"Atlas project"}>
 
               <i class='bx bxl-github icon-github'></i>
 
             </ItemLista>
-          </a>
+          
           <p className='description'>Una página dedicada a ofrecer soluciones de seguridad web, protegiendo sitios contra ciberataques, vulnerabilidades y amenazas online, garantizando la privacidad y protección de tus datos.</p>
         </div>
+        </a>
 
+        <a href="https://github.com/ronaldp12/dictionary">
         <div className='container-project'>
-          <a href="https://github.com/ronaldp12/dictionary">
+          
             <ImgProject estilosDiv={"container-img"} estilos={"img-project"} ruta={imgProyecto2} />
             <ItemLista estilos={"info"} estilos2={"project-name"} contenido={"Traductor"}>
 
               <i class='bx bxl-github icon-github'></i>
 
             </ItemLista>
-          </a>
+          
           <p className='description'>Una página que traduce palabras y frases, proporcionando ejemplos prácticos de uso para facilitar la comprensión y aplicación en contextos reales.</p>
         </div>
+        </a>
 
 
+        <a href="https://github.com/ronaldp12/LluviaDePalabras">
         <div className='container-project'>
-          <a href="https://github.com/ronaldp12/LluviaDePalabras">
+          
             <ImgProject estilosDiv={"container-img"} estilos={"img-project"} ruta={imgProyecto3} />
             <ItemLista estilos={"info"} estilos2={"project-name"} contenido={"Lluvia de palabras"}>
 
               <i class='bx bxl-github icon-github'></i>
 
             </ItemLista>
-          </a>
+          
           <p className='description'>Una página para jugar en modo multijugador, donde los participantes deben ingresar la mayor cantidad de palabras posibles con una letra aleatoria.</p>
         </div>
+        </a>
 
+        <a href="https://github.com/ronaldp12/ReproductorJs">
         <div className='container-project'>
-          <a href="https://github.com/ronaldp12/ReproductorJs">
+          
             <ImgProject estilosDiv={"container-img"} estilos={"img-project"} ruta={imgProyecto4} />
             <ItemLista estilos={"info"} estilos2={"project-name"} contenido={"Reproductor"}>
 
               <i class='bx bxl-github icon-github'></i>
 
             </ItemLista>
-          </a>
+          
           <p className='description'>Un reproductor de música en línea que te permite escuchar tus canciones favoritas y disfrutar de una experiencia musical sin interrupciones.</p>
         </div>
+        </a>
 
       </div>
 

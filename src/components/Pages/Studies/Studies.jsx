@@ -21,7 +21,7 @@ export const Studies = () => {
         </div>
 
         <div className='container-study'>
-          <ItemLista estilos2={"study-name"} contenido={"Técnologo en Ánalisis y Desarrollo de Software "}>
+          <ItemLista estilos2={"study-name"} contenido={"Técnologo en Desarrollo de Software "}>
             <i class="bi bi-code-slash"></i>
             <p className='state2'>・En formación</p>
             <p className='years'>2024-2025</p>
@@ -29,7 +29,7 @@ export const Studies = () => {
         </div>
 
         <div className='container-level-english'>
-          <ItemLista contenido={"Nivel de inglés "}>
+          <ItemLista estilos2={"level-text"} contenido={"Nivel de inglés "}>
             <span className='level'>B1+ </span>
             <i class="bi bi-translate"></i>
           </ItemLista>
