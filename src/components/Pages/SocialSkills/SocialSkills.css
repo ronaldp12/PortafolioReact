@@ -204,4 +204,17 @@
     transform: translateY(-7px);
 }
 
+@media (min-width:394px) and (max-width: 431px) {
 
+    .container-social-skills{
+        height: 70vh;
+    }
+  }
+  
+  @media (min-width:432px) and (max-width: 482px) {
+  
+    .container-social-skills{
+        height: 70vh;
+    }
+    
+  }

@@ -198,7 +198,7 @@ h3 {
   color: #9ba8ab;
 }
 
-.container.img-personal{
+.container>.img-personal{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -377,6 +377,58 @@ h3 {
   text-align: center;
 }
 
+@media (min-width:394px) and (max-width: 431px) {
 
+  .img-personal{
+    margin-left: 8.5rem;
+  }
+  
+  .btn-contact{
+    margin-left: 9.5rem;
+  }
+}
+
+@media (min-width:432px) and (max-width: 482px) {
+
+  .header-home >h1{
+    font-size: 2.2rem;
+  }
+
+  h3{
+    font-size: 1.2rem;
+  }
+
+  .buttonDownload{
+    width: 15rem;
+    font-size: 1.2rem;
+  }
+
+  .img-personal{
+    margin-left: 10rem;
+  }
+
+  .btn-contact{
+    width: 10rem;
+    margin-left: 10.5rem;
+    font-size: 1.1rem;
+  }
+
+  .btn-section{
+    font-size: 19px;
+  }
+
+  .email-footer>p{
+    font-size: 1.2rem;
+  }
+
+  .about-me-text{
+    font-size: 2.1rem;
+  }
+
+  .container-paragraph >p{
+    font-size: 1.2rem;
+  }
+  
+}
 
 

@@ -170,4 +170,36 @@
 .bi-filetype-sql, .bxl-postgresql, .bxl-mongodb{
     font-size: 3rem;
 }
+
+@media (min-width:394px) and (max-width: 431px) {
+
+  .img-personal2{
+    margin-left: 3rem;
+  }
+  
+}
+
+@media (min-width:432px) and (max-width: 482px) {
+
+  .header2{
+    height: 7rem;
+  }
+
+  .img-personal2{
+    margin-left: 2.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .container-header2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-header2>h2{
+    font-size: 1.7rem;
+  }
+  
+}
   

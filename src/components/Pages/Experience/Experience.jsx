@@ -37,7 +37,7 @@ export const Experience = () => {
 
             </ItemLista>
           </a>
-          <p>Una página que traduce palabras y frases, proporcionando ejemplos prácticos de uso para facilitar la comprensión y aplicación en contextos reales.</p>
+          <p className='description'>Una página que traduce palabras y frases, proporcionando ejemplos prácticos de uso para facilitar la comprensión y aplicación en contextos reales.</p>
         </div>
 
 
@@ -50,11 +50,11 @@ export const Experience = () => {
 
             </ItemLista>
           </a>
-          <p>Una página para jugar en modo multijugador, donde los participantes deben ingresar la mayor cantidad de palabras posibles con una letra aleatoria.</p>
+          <p className='description'>Una página para jugar en modo multijugador, donde los participantes deben ingresar la mayor cantidad de palabras posibles con una letra aleatoria.</p>
         </div>
 
         <div className='container-project'>
-          <a href="https://github.com/ronaldp12/LluviaDePalabras">
+          <a href="https://github.com/ronaldp12/ReproductorJs">
             <ImgProject estilosDiv={"container-img"} estilos={"img-project"} ruta={imgProyecto4} />
             <ItemLista estilos={"info"} estilos2={"project-name"} contenido={"Reproductor"}>
 
@@ -62,7 +62,7 @@ export const Experience = () => {
 
             </ItemLista>
           </a>
-          <p>Un reproductor de música en línea que te permite escuchar tus canciones favoritas y disfrutar de una experiencia musical sin interrupciones.</p>
+          <p className='description'>Un reproductor de música en línea que te permite escuchar tus canciones favoritas y disfrutar de una experiencia musical sin interrupciones.</p>
         </div>
 
       </div>

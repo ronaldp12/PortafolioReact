@@ -80,3 +80,36 @@
 .bi-translate{
     font-size: 1.1rem;
 }
+
+@media (min-width:432px) and (max-width: 482px) {
+
+    .container-study{
+        height: 8rem;
+    }
+
+    .study-name{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .state{
+        font-size: 1.2rem;
+    }
+
+    .state2{
+        font-size: 1.2rem;
+    }
+
+    .years{
+        font-size: 1.2rem;
+    }
+
+    .container-level-english{
+        font-size: 1.3rem;
+    }
+
+    .bi-translate{
+        font-size: 1.3rem;
+    }
+    
+  }
