@@ -25,7 +25,7 @@ export const Experience = () => {
 
             </ItemLista>
           </a>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nesciunt?</p>
+          <p className='description'>Una página dedicada a ofrecer soluciones de seguridad web, protegiendo sitios contra ciberataques, vulnerabilidades y amenazas online, garantizando la privacidad y protección de tus datos.</p>
         </div>
 
         <div className='container-project'>
@@ -37,7 +37,7 @@ export const Experience = () => {
 
             </ItemLista>
           </a>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nesciunt?</p>
+          <p>Una página que traduce palabras y frases, proporcionando ejemplos prácticos de uso para facilitar la comprensión y aplicación en contextos reales.</p>
         </div>
 
 
@@ -50,7 +50,7 @@ export const Experience = () => {
 
             </ItemLista>
           </a>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nesciunt?</p>
+          <p>Una página para jugar en modo multijugador, donde los participantes deben ingresar la mayor cantidad de palabras posibles con una letra aleatoria.</p>
         </div>
 
         <div className='container-project'>
@@ -62,7 +62,7 @@ export const Experience = () => {
 
             </ItemLista>
           </a>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nesciunt?</p>
+          <p>Un reproductor de música en línea que te permite escuchar tus canciones favoritas y disfrutar de una experiencia musical sin interrupciones.</p>
         </div>
 
       </div>
