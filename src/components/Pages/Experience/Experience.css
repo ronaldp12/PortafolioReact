@@ -8,18 +8,31 @@
     gap: 1rem;
 }
 
+.container-projects>h2{
+    text-transform: uppercase;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+
 .container-project{
-    width: 15rem;
+    width: 18rem;
     height: auto;
     background-color: azure;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    align-items: center;
     list-style: none;
     border-radius: 0.6em;
+    margin-bottom: 1rem;
 }
 
+.container-project>p{
+    padding: 0.4rem;
+}
+
+.container-project>a{
+    text-decoration: none;
+}
 
 .container-img{
     width: 100%;
@@ -31,4 +44,25 @@
     height: 100%;
     border-top-left-radius: 0.6em;
     border-top-right-radius: 0.6em;
+    cursor: pointer;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project-name{
+    margin-right: 4.5rem;
+    text-transform: uppercase;
+    padding: 0.4rem;
+    color: black;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.icon-github{
+    color: black;
+    margin-right: 0.4rem;
 }
