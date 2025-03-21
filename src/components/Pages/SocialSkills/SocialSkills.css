@@ -239,3 +239,26 @@
         font-size: 1.4rem;
     }
   }
+
+  @media (min-width:822px) and (max-width: 1560px) {
+
+    .container-social-skills{
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .container-social-skills>h2{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    
+    .container-social-list{
+        gap: 1.5rem;
+    }
+
+    .item-social, .item-social2, .item-social3, .item-social4, .item-social5, .item-social6, .item-social7, .item-social8, .item-social9{
+        width: 50%;
+        font-size: 1.5rem;
+    }
+
+  }

@@ -526,4 +526,99 @@ h3 {
   }
 }
 
+@media (min-width:822px) and (max-width: 1560px){
+
+  .header-home{
+    height: 19rem;
+  }
+
+  .header-home::before{
+    height: 19rem;
+  }
+
+  .header-home >h1{
+    font-size: 3rem;
+  }
+
+  h2{
+    font-size: 1.7rem;
+  }
+
+  h3{
+    font-size: 1.4rem;
+  }
+
+  .buttonDownload{
+    width: 17rem;
+    font-size: 1.4rem;
+  }
+
+  .img-personal{
+    margin-left: 44rem;
+  }
+
+  .container-btns{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .btn-contact{
+    width: 12rem;
+    margin-left: 42.5rem;
+    font-size: 1.2rem;
+    margin-top: 1.6rem;
+  }
+
+  .btn-section{
+    font-size: 23px;
+    width: 25rem;
+  }
+
+  .btn-section:hover::before, .btn-section:hover::after {
+    height: 470px;
+    width: 470px;
+   }
+
+  .email-footer>p{
+    font-size: 1.2rem;
+  }
+
+  .about-me-text{
+    font-size: 2.3rem;
+  }
+
+  .container-paragraph >p{
+    font-size: 1.4rem;
+  }
+
+  .footer{
+    height: 16rem;
+  }
+
+  .icons-footer{
+    justify-content: space-evenly;
+  }
+
+  .bi-telephone-fill{
+    font-size: 2.0rem;
+  }
+  
+  .bi-envelope-at-fill{
+    font-size: 2.0rem;
+  }
+  
+  .bxl-github {
+    font-size: 2.3rem;
+  }
+  
+  .bi-linkedin{
+    font-size: 2.0rem;
+  }
+
+  .footer >p{
+    font-size: 1rem;
+  }
+
+}
 
